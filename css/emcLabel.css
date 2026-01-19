@@ -85,7 +85,7 @@ div.emc10kspeed {
 
 div.emc54kspeed {
   background-color: #00A300 !important; /* 2 TB & 7.2K speed */
-  color: #black !important;
+  color: black !important;
   padding-left: 10px;
   padding-top: 1%;
   height: 33.33%;
