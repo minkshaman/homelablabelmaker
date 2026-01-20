@@ -98,6 +98,6 @@ jobs:
         # against the sigstore community Fulcio instance.
         run: |
           echo "${TAGS}" | xargs -I {} cosign sign --yes {}@${DIGEST}      
-          docker build . --tag ghcr.io/minkshaman/homelablabelmaker-EMC:latest
-          docker run ghcr.io/minkshaman/homelablabelmaker-EMC:latest
-          docker push ghcr.io/minkshaman/homelablabelmaker-EMC:latest
+          docker build . --tag ghcr.io/minkshaman/homelablabelmaker-emc:latest
+          docker run ghcr.io/minkshaman/homelablabelmaker-emc:latest
+          docker push ghcr.io/minkshaman/homelablabelmaker-emc:latest
