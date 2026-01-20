@@ -75,8 +75,7 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
-
-        run: |
-          docker build . --tag ghcr.io/minkshaman/homelablabelmaker-emc:latest
-          docker run ghcr.io/minkshaman/homelablabelmaker-emc:latest
-          docker push ghcr.io/minkshaman/homelablabelmaker-emc:latest
+          run: |
+            docker build . --tag ghcr.io/minkshaman/homelablabelmaker-emc:latest
+            docker run ghcr.io/minkshaman/homelablabelmaker-emc:latest
+            docker push ghcr.io/minkshaman/homelablabelmaker-emc:latest
