@@ -74,6 +74,6 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           run: |
-            docker build . --tag ghcr.io/minkshaman/homelablabelmaker-emc:latest
-            docker run ghcr.io/minkshaman/homelablabelmaker-emc:latest
-            docker push ghcr.io/minkshaman/homelablabelmaker-emc:latest
+            docker build . --tag ghcr.io/minkshaman/homelablabelmaker-emc:master
+            docker run ghcr.io/minkshaman/homelablabelmaker-emc:master
+            docker push ghcr.io/minkshaman/homelablabelmaker-emc:master
