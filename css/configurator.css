@@ -1,3 +1,5 @@
+
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -42,7 +44,7 @@ body {
 
 div#mainContainer {
   margin-top: 50px;
-  margin-bottom: 2cm;
+
   text-align: center;
   width:100%;
   height:100%;
@@ -156,7 +158,7 @@ div#mainContainer table .dell2 {
 @media screen {
   .btn.disabled, .btn:disabled { opacity: 0.4 !important; }
 }
-
+/*
 @media screen and (min-width: 700px) {
   #configuratorMain .modal-dialog  {width:650px;}
   
@@ -165,7 +167,7 @@ div#mainContainer table .dell2 {
 @media (min-width: 576px) {
 	#vendorPicker  .modal-dialog  {width:900px !important;}
 }
-
+*/
 
 #topContainer {
   width: 100%;
